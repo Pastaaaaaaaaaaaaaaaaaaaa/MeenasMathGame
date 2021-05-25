@@ -1,0 +1,10 @@
+var name1=localStorage.getItem("Name1");
+var name2=localStorage.getItem("Name2");
+var score1=0;
+var score2=0;
+document.getElementById("player1").innerHTML=name1;
+document.getElementById("player2").innerHTML=name2;
+document.getElementById("player1score").innerHTML=" : "+score1;
+document.getElementById("player2score").innerHTML=" : "+score2;
+document.getElementById("word_chooser").innerHTML="Asker: "+name1;
+document.getElementById("word_guesser").innerHTML="Answerer: "+name2;
